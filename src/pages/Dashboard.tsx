@@ -125,7 +125,7 @@ const Dashboard = () => {
                   <div className="flex items-center justify-between">
                     <CardTitle>Recent Certificates</CardTitle>
                     <Button variant="ghost" size="sm" asChild>
-                      <Link to="/AdminDashboard">View All</Link>
+                      <Link to="/admin">View All</Link>
                     </Button>
                   </div>
                 </CardHeader>
