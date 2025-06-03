@@ -45,7 +45,7 @@ const Navbar = () => {
         {isOpen && (
           <div className="md:hidden pt-4 pb-3 space-y-2">
             <MobileNavLink to="/" onClick={toggleMenu}>Home</MobileNavLink>
-            <MobileNavLink to="/verify" onClick={toggleMenu}>Verify Certificate</MobileNavLink>
+        
             
             <div className="pt-2 flex flex-col space-y-2">
               <Button variant="outline" asChild className="w-full">
